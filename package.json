@@ -1,0 +1,30 @@
+{
+  "name": "tech-blog-site",
+  "version": "1.0.0",
+  "description": "![License](https://img.shields.io/badge/license-MIT-green.svg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandragruiz/tech-blog-site.git"
+  },
+  "author": "sandragruiz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandragruiz/tech-blog-site/issues"
+  },
+  "homepage": "https://github.com/sandragruiz/tech-blog-site#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-session-sequelize": "^7.1.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "express-session": "^1.17.3",
+    "mysql2": "^3.2.4",
+    "sequelize": "^6.31.0",
+    "sqlite3": "^5.1.6"
+  }
+}
